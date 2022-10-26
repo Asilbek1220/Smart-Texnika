@@ -1,0 +1,107 @@
+.swp {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    .swiper {
+        width: 100%;
+        height: 80%;
+        @media (max-width: 1200px) {
+            height: 70%;
+        }
+      }
+    
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+    
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        @media (max-width: 1200px) {
+            height: 70%;
+        }
+    }
+
+    .absolut1 {
+        font-size: 50px;
+        color: #fff;
+        position: absolute;
+        text-align: left;
+        top: 120px;
+        left: 150px;
+        @media (max-width: 1400px) {
+            font-size: 45px;
+            top: 100px;
+            left: 110px;
+        }
+        @media (max-width: 1200px) {
+            font-size: 40px;
+            top: 90px;
+            left: 80px;
+        }
+        @media (max-width: 1000px) {
+            font-size: 30px;
+            top: 65px;
+            left: 60px;
+        }
+        @media (max-width: 770px) {
+            font-size: 22px;
+            top: 40px;
+            left: 40px;
+        }
+        @media (max-width: 480px) {
+            font-size: 18px;
+            top: 20px;
+            left: 25px;
+        }
+    }
+    .absolut2 {
+        font-size: 35px;
+        color: #fff;
+        position: absolute;
+        top: 250px;
+        left: 150px;
+        @media (max-width: 1400px) {
+            font-size: 32px;
+            top: 230px;
+            left: 110px;
+        }
+        @media (max-width: 1200px) {
+            font-size: 29px;
+            top: 200px;
+            left: 80px;
+        }
+        @media (max-width: 1000px) {
+            font-size: 25px;
+            top: 145px;
+            left: 60px;
+        }
+        @media (max-width: 770px) {
+            font-size: 20px;
+            top: 100px;
+            left: 40px;
+        }
+        @media (max-width: 480px) {
+            font-size: 16px;
+            top: 80px;
+            left: 25px;
+        }
+    }
+}

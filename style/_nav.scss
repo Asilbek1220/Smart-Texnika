@@ -1,0 +1,77 @@
+.nav {
+    padding: 10px 0px;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            width: 190px;
+        }
+        .nav-text {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .number {
+                display: flex;
+                justify-content: space-around;
+                @media (max-width: 1200px) {
+                    display: none;
+                }
+                a {
+                    margin: 0px 10px;
+                    color: black;
+                }
+                .smoke {
+                    color: #838688;
+                }
+            }
+            .icons {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .search {
+                    border-bottom: 1px solid #838688;
+                    color: #838688;
+                    margin: 0px 5px;
+                    @media (max-width:770px) {
+                        display: none;
+                    }
+                    i {
+                        padding-left: 10px;
+                    }
+                    input {
+                        width: 90px;
+                        border: none;
+                        padding-bottom: 5px;
+                        outline: none;
+                    }
+                }
+                .icon {
+                    align-items: center;
+                    margin: 0px 5px;
+                    i {
+                        color: #838688;
+                        margin: 0px 8px;
+                    }
+                    @media (max-width: 520px) {
+                        display: none;
+                    }
+                    :active {
+                        color: #2A5275;
+                    }
+                }
+                .vxod {
+                    align-items: center;
+                    margin-left: 10px;
+                    a {
+                        background-color: #2A5275;
+                        padding: 12px 18px;
+                        color: #fff;
+                        font-size: 15px;
+                        border-radius: 6px;
+                    }
+                }
+            }
+        }
+    }
+}

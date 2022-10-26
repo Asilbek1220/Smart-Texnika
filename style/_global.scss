@@ -1,0 +1,25 @@
+body {
+    font-family: 'rubik',sans-serif;
+}
+
+.none {
+    @media (max-width:770px) {
+        width: 90%;
+    }
+}
+
+#smoke {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.whit {
+    color: #EAEAF0;
+}

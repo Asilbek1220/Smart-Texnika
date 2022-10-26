@@ -1,0 +1,81 @@
+.header-dark {
+    background-color: #0E1821;
+    @media (max-width: 770px) {
+        display: none;
+    }
+    a {
+        color: #fff;
+    }
+    .nav-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        .dropdown {
+            .bc-dark {
+                background-color: #243C53;
+                border: none;
+                padding: 15px 90px 15px 30px;
+                @media (max-width: 1400px) {
+                    font-size: 15px;
+                }
+                @media (max-width: 1200px) {
+                    font-size: 14px;
+                }
+                @media (max-width: 1000px) {
+                    font-size: 13px;
+                }
+            }
+            .dropdown-menu {
+                background-color: #EDF2F6;
+                width: 250px;
+                @media (max-width: 1400px) {
+                    width: 245px;
+                }
+                @media (max-width: 1200px) {
+                    width: 225px;
+                }
+            }
+            .dropdown-menu li{
+                display: flex;
+                padding: 10px 0px;
+                a {
+                    color: black;
+                }
+            }
+        }
+        .nav-grid ul{
+            display: flex;
+            justify-content: space-between;
+            li {
+                margin: 0px 20px;
+                @media (max-width: 1400px) {
+                    font-size: 15px;
+                }
+                @media (max-width: 1200px) {
+                    font-size: 14px;
+                }
+                @media (max-width: 1000px) {
+                    font-size: 13px;
+                }
+            }
+            .none1 {
+                display: block;
+                @media (max-width: 1400px) {
+                    display: none;
+                }
+            }
+            .none2 {
+                display: block;
+                @media (max-width: 1200px) {
+                    display: none;
+                }
+            }
+            .none2 {
+                display: block;
+                @media (max-width: 1000px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.allmost-footer {
+    .twise-block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        @media (max-width:992px) {
+            grid-template-columns: auto;
+            align-items: center;
+        }
+        .block1 {
+            padding: 30px;
+            background-color: #EDF2F6;
+            .top-text {
+                font-weight: 600;
+                transition: 0.5s;
+            }
+            .top-text:hover {
+                h4 {
+                    transition: 0.5s;
+                    color: #2A5275;
+                }
+            }
+            .p-block {
+                margin-top: 15px;
+            }
+            .bottom-block {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 15px;
+                a {
+                    color: #2A5275;
+                }
+            }
+        }
+    }
+}
